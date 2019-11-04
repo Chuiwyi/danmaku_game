@@ -1,8 +1,8 @@
-from DanmakuGameClasses import DanmakuGame
+from DanmakuGameClasses.DanmakuGame import DanmakuGame
 import sys
 
 #Define Entry Point
 if __name__ == "__main__":
-    game = DanmakuGame.DanmakuGame()
+    game = DanmakuGame()
     game.run()
     sys.exit()
